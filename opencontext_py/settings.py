@@ -100,10 +100,11 @@ TEMPLATES = [
 ]
 
 INTERNAL_IPS =[
-    '127.0.0.1'
+    'localhost:80'
 ]
 
 ALLOWED_HOSTS = [
+    'localhost',
     '.opencontext.org',
     '127.0.0.1'
 ]
